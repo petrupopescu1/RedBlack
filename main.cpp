@@ -254,7 +254,7 @@ Nod* RedBlack :: cautare(Nod *radacina, int x)
     }
 }
 
-int RedBlack :: predecesor(Nod *radacina, int x)
+int RedBlack :: succesor(Nod *radacina, int x)
 {
     if (radacina == NULL)
     {
@@ -274,7 +274,7 @@ int RedBlack :: predecesor(Nod *radacina, int x)
     }
 }
 
-int RedBlack :: succesor(Nod *radacina, int x)
+int RedBlack :: predecesor(Nod *radacina, int x)
 {
     if (radacina == nullptr)
     {
